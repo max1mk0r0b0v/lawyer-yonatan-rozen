@@ -38,22 +38,22 @@ const whyChoose = [
 
 const processSteps = [
   {
-    step: "01",
+    step: "שלב 1",
     title: "שיחה ראשונית",
     text: "הבנת פרטי העסקה, הצדדים והמטרות המרכזיות.",
   },
   {
-    step: "02",
+    step: "שלב 2",
     title: "בדיקה והיערכות",
     text: "איסוף מסמכים, בדיקת הזכויות והצפת נקודות שדורשות טיפול.",
   },
   {
-    step: "03",
+    step: "שלב 3",
     title: "ליווי וניסוח",
     text: "ניהול משפטי של המשא ומתן וניסוח הסכמים מדויקים.",
   },
   {
-    step: "04",
+    step: "שלב 4",
     title: "השלמת העסקה",
     text: "סגירת התנאים, חתימות, דיווחים והעברת הזכויות בצורה מסודרת.",
   },
@@ -67,7 +67,11 @@ export function LandingPage() {
       <section className="relative min-h-screen px-4 pb-12 pt-4 sm:px-6 lg:px-8">
         <header className="relative z-20 mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center border border-white/10 bg-[#071017]/38 px-4 py-3 text-xs text-stone-50/78 shadow-[0_18px_70px_rgba(0,0,0,0.3)] backdrop-blur-xl sm:px-6">
           <div className="justify-self-start">
-            <ButtonLink href="#contact" variant="secondary" className="min-h-0 px-4 py-2 text-xs">
+            <ButtonLink
+              href="#contact"
+              variant="secondary"
+              className="min-h-9 min-w-[5.75rem] whitespace-nowrap px-3 py-2 text-center text-[0.7rem] leading-none sm:min-h-0 sm:min-w-0 sm:px-4 sm:text-xs sm:leading-normal"
+            >
               שיחת ייעוץ
             </ButtonLink>
           </div>
@@ -90,7 +94,7 @@ export function LandingPage() {
           id="top"
           className="relative z-10 mx-auto grid min-h-[calc(100vh-5rem)] max-w-6xl items-center gap-8 pb-10 pt-14 lg:grid-cols-[1.04fr_0.96fr]"
         >
-          <div className="text-center lg:text-right">
+          <div className="order-2 text-center lg:order-1 lg:text-right">
             <p className="hero-copy text-[0.58rem] font-bold tracking-[0.44em] text-[#d8bd82]/78">
               משרד בוטיק למקרקעין
             </p>
@@ -130,7 +134,7 @@ export function LandingPage() {
             </p>
           </div>
 
-          <aside className="hero-copy luxury-card group relative mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:max-w-none">
+          <aside className="hero-copy luxury-card group relative order-1 mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:order-2 lg:max-w-none">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(216,189,130,0.24),transparent_21rem)]" />
             <Image
               src="/images/lawyer-yonatan-rozen-portrait.png"
