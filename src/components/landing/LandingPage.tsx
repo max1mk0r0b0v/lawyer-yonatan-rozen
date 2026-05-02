@@ -70,7 +70,7 @@ export function LandingPage() {
             <ButtonLink
               href="#contact"
               variant="secondary"
-              className="h-auto min-h-0 min-w-0 whitespace-nowrap px-3 py-1.5 text-center text-[0.7rem] leading-tight sm:px-4 sm:py-2 sm:text-xs sm:leading-normal"
+              className="whitespace-nowrap text-center sm:px-4 sm:py-2 sm:text-xs sm:leading-normal max-sm:!h-auto max-sm:!min-h-0 max-sm:!min-w-0 max-sm:!px-3 max-sm:!py-2 max-sm:!text-xs max-sm:!leading-tight"
             >
               שיחת ייעוץ
             </ButtonLink>
