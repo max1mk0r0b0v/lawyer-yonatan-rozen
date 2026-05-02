@@ -65,7 +65,7 @@ export function LandingPage() {
       <div className="page-backdrop" aria-hidden="true" />
 
       <section className="relative min-h-screen px-4 pb-12 pt-4 sm:px-6 lg:px-8">
-        <header className="relative z-20 mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center border border-white/10 bg-[#071017]/38 px-4 py-3 text-xs text-stone-50/78 shadow-[0_18px_70px_rgba(0,0,0,0.3)] backdrop-blur-xl sm:px-6">
+        <header className="site-header-reveal relative z-20 mx-auto grid max-w-6xl grid-cols-[1fr_auto_1fr] items-center border border-white/10 bg-[#071017]/38 px-4 py-3 text-xs text-stone-50/78 shadow-[0_18px_70px_rgba(0,0,0,0.3)] backdrop-blur-xl sm:px-6">
           <div className="justify-self-start">
             <ButtonLink
               href="#contact"
@@ -134,7 +134,7 @@ export function LandingPage() {
             </p>
           </div>
 
-          <aside className="hero-copy luxury-card group relative order-1 mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:order-2 lg:max-w-none">
+          <aside className="hero-copy hero-portrait luxury-card group relative order-1 mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:order-2 lg:max-w-none">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(216,189,130,0.24),transparent_21rem)]" />
             <Image
               src="/images/lawyer-yonatan-rozen-portrait.png"
@@ -170,7 +170,7 @@ export function LandingPage() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {practiceAreas.map((area) => (
               <article
-                className="luxury-card group min-h-56 border border-white/12 bg-[#0b141c]/66 p-6 shadow-[0_28px_90px_rgba(0,0,0,0.24)] backdrop-blur-xl transition duration-500 ease-out hover:-translate-y-2 hover:border-[#d8bd82]/42 hover:bg-[#111b25]/76"
+                className="reveal-child luxury-card group min-h-56 border border-white/12 bg-[#0b141c]/66 p-6 shadow-[0_28px_90px_rgba(0,0,0,0.24)] backdrop-blur-xl transition duration-500 ease-out hover:-translate-y-2 hover:border-[#d8bd82]/42 hover:bg-[#111b25]/76"
                 key={area.title}
               >
                 <span className="mb-6 block h-px w-12 bg-[linear-gradient(90deg,#d8bd82,rgba(255,255,255,0.08))] transition duration-500 group-hover:w-20" />
@@ -214,7 +214,7 @@ export function LandingPage() {
                 <div className="mt-6 grid gap-2 sm:grid-cols-2">
                   {whyChoose.map((item) => (
                     <div
-                      className="flex items-center gap-3 border border-white/10 bg-white/[0.07] px-4 py-3 text-sm font-semibold text-stone-50/82 transition duration-300 hover:border-[#d8bd82]/38 hover:bg-white/[0.105]"
+                      className="reveal-child flex items-center gap-3 border border-white/10 bg-white/[0.07] px-4 py-3 text-sm font-semibold text-stone-50/82 transition duration-300 hover:border-[#d8bd82]/38 hover:bg-white/[0.105]"
                       key={item}
                     >
                       <span className="h-1.5 w-1.5 rounded-full bg-[#d8bd82] shadow-[0_0_18px_rgba(216,189,130,0.65)]" />
@@ -238,7 +238,7 @@ export function LandingPage() {
           <div className="mt-10 grid gap-4 lg:grid-cols-4">
             {processSteps.map((item) => (
               <article
-                className="luxury-card group border border-white/12 bg-[#0b141c]/62 p-6 shadow-[0_28px_90px_rgba(0,0,0,0.22)] backdrop-blur-xl transition duration-500 hover:-translate-y-1 hover:border-[#d8bd82]/40"
+                className="reveal-child luxury-card group border border-white/12 bg-[#0b141c]/62 p-6 shadow-[0_28px_90px_rgba(0,0,0,0.22)] backdrop-blur-xl transition duration-500 hover:-translate-y-1 hover:border-[#d8bd82]/40"
                 key={item.step}
               >
                 <p className="legal-display text-4xl font-semibold text-[#d8bd82]/72 transition duration-500 group-hover:text-[#f3d89f]">
