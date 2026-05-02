@@ -70,7 +70,7 @@ export function LandingPage() {
             <ButtonLink
               href="#contact"
               variant="secondary"
-              className="min-h-9 min-w-[5.75rem] whitespace-nowrap px-3 py-2 text-center text-[0.7rem] leading-none sm:min-h-0 sm:min-w-0 sm:px-4 sm:text-xs sm:leading-normal"
+              className="h-auto min-h-0 min-w-0 whitespace-nowrap px-3 py-1.5 text-center text-[0.7rem] leading-tight sm:px-4 sm:py-2 sm:text-xs sm:leading-normal"
             >
               שיחת ייעוץ
             </ButtonLink>
@@ -92,7 +92,7 @@ export function LandingPage() {
 
         <div
           id="top"
-          className="relative z-10 mx-auto grid min-h-[calc(100vh-5rem)] max-w-6xl items-center gap-8 pb-10 pt-14 lg:grid-cols-[1.04fr_0.96fr]"
+          className="relative z-10 mx-auto grid min-h-[calc(100vh-5rem)] max-w-6xl items-center gap-8 pb-10 pt-9 sm:pt-14 lg:grid-cols-[1.04fr_0.96fr]"
         >
           <div className="order-2 text-center lg:order-1 lg:text-right">
             <p className="hero-copy text-[0.58rem] font-bold tracking-[0.44em] text-[#d8bd82]/78">
