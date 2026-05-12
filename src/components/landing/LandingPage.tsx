@@ -98,7 +98,7 @@ export function LandingPage() {
             <p className="hero-copy text-[0.58rem] font-bold tracking-[0.44em] text-[#d8bd82]/78">
               משרד בוטיק למקרקעין
             </p>
-            <h1 className="legal-display hero-copy mx-auto mt-6 max-w-4xl text-balance text-[3.05rem] font-light leading-[1.02] tracking-[-0.055em] text-white sm:text-6xl lg:mx-0 lg:text-7xl">
+            <h1 className="legal-display hero-copy hero-lcp mx-auto mt-6 max-w-4xl text-balance text-[3.05rem] font-light leading-[1.02] tracking-[-0.055em] text-white sm:text-6xl lg:mx-0 lg:text-7xl">
               ליווי משפטי מדויק
               <span className="block bg-[linear-gradient(120deg,#fff8e8_0%,#d8bd82_48%,#9f6b2b_100%)] bg-clip-text font-semibold text-transparent drop-shadow-[0_0_28px_rgba(216,189,130,0.18)]">
                 בעסקאות מקרקעין
@@ -134,7 +134,7 @@ export function LandingPage() {
             </p>
           </div>
 
-          <aside className="hero-copy hero-portrait luxury-card group relative order-1 mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:order-2 lg:max-w-none">
+          <aside className="hero-copy hero-lcp hero-portrait luxury-card group relative order-1 mx-auto min-h-[520px] w-full max-w-[430px] overflow-hidden border border-white/12 bg-[#111820]/58 shadow-[0_34px_110px_rgba(0,0,0,0.42)] backdrop-blur-md lg:order-2 lg:max-w-none">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(216,189,130,0.24),transparent_21rem)]" />
             <Image
               src="/images/lawyer-yonatan-rozen-portrait.png"
